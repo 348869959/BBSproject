@@ -60,15 +60,15 @@
 		</property>
 		<property name="mappingResources">
 			<list>
-				<value>com/chen/bean/Grades.hbm.xml</value>
-				<value>com/chen/bean/Users.hbm.xml</value>
-				<value>com/chen/bean/Topics.hbm.xml</value>
-				<value>com/chen/bean/Comments.hbm.xml</value>
-				<value>com/chen/bean/Announces.hbm.xml</value>
-				<value>com/chen/bean/Types.hbm.xml</value>
-				<value>com/chen/bean/Categorys.hbm.xml</value>
-				<value>com/chen/bean/Helps.hbm.xml</value>
-				<value>com/chen/bean/News.hbm.xml</value>
+				<value>com//hfsecurity/bean/Grades.hbm.xml</value>
+				<value>com/hfsecurity/bean/Users.hbm.xml</value>
+				<value>com/hfsecurity/bean/Topics.hbm.xml</value>
+				<value>com/hfsecurity/bean/Comments.hbm.xml</value>
+				<value>com/hfsecurity/bean/Announces.hbm.xml</value>
+				<value>com/hfsecurity/bean/Types.hbm.xml</value>
+				<value>com/hfsecurity/bean/Categorys.hbm.xml</value>
+				<value>com/hfsecurity/bean/Helps.hbm.xml</value>
+				<value>com/hfsecurity/bean/News.hbm.xml</value>
 			</list>
 		</property>
 		<property name="hibernateProperties">

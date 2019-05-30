@@ -103,7 +103,7 @@ table tr td {
 		var currentPage = parseInt($("#currentPage").val());
 		var selectedPage = parseInt($("#selectPage").val());
 		if (selectedPage != 0 && selectedPage != currentPage) {
-			document.goPageForm.action = "user_ManageUserAllTopics.action?user.id=<s:property value="user.id"/>&&nowPage=" + selectedPage;
+			document.goPageForm.action = "user_ManageUserAllTopics.action?user.id=<s:property value='user.id'/>&nowPage=" + selectedPage;
 			goPageForm.submit();
 		}
 
