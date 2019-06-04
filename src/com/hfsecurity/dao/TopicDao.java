@@ -9,8 +9,7 @@ import com.hfsecurity.bean.Topics;
 import com.hfsecurity.bean.Types;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 标题DAO
  */
 public interface TopicDao {
 	public boolean add(Topics topic);

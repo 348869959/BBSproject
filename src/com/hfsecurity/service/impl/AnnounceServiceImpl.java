@@ -12,9 +12,10 @@ import com.hfsecurity.dao.AnnounceDao;
 import com.hfsecurity.dao.PageDao;
 import com.hfsecurity.service.AnnounceService;
 
+
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 公告栏服务接口方法定义
+ * 
  */
 public class AnnounceServiceImpl implements AnnounceService {
 

@@ -7,8 +7,8 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author phn
- * 
+ * 帖子类目
+ * 数据库获取
  */
 public class Categorys {
 	private int id;

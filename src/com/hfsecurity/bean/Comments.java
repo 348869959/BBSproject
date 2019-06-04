@@ -6,7 +6,8 @@ package com.hfsecurity.bean;
 import java.util.Date;
 
 /**
- * @author phn
+ * 评论内容
+ * 数据库获取
  * 
  */
 public class Comments {

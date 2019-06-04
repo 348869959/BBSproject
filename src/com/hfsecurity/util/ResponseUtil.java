@@ -9,8 +9,7 @@ import java.io.PrintWriter;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * @author phn
- *
+ * 响应工具类
  */
 public class ResponseUtil {
 	public static void write(HttpServletResponse response,Object obj) throws IOException{

@@ -9,7 +9,7 @@ function uploadF() {
 			return true;
 		}
 	}
-	alert("请按要求选择文件！");
+	alert("Please select the file as required!");
 	return false;
 };
 

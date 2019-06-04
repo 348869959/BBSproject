@@ -7,9 +7,10 @@ package com.hfsecurity.service;
 import com.hfsecurity.bean.Pages;
 import com.hfsecurity.bean.Types;
 
+
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 类型服务接口定义
+ * 
  */
 
 public interface TypeService {

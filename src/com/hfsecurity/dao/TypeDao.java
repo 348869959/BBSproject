@@ -8,8 +8,7 @@ import java.util.List;
 import com.hfsecurity.bean.Types;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 分类DAO
  */
 public interface TypeDao {
 	public boolean add(Types type);

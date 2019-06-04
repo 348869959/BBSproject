@@ -15,8 +15,8 @@ import com.hfsecurity.dao.TypeDao;
 import com.hfsecurity.service.TypeService;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 类型服务接口方法定义
+ * 
  */
 
 public class TypeServiceImpl implements TypeService {

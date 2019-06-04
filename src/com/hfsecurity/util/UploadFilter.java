@@ -15,8 +15,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.http.HttpServletRequest;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 加载过滤器
  */
 public class UploadFilter implements Filter {
 

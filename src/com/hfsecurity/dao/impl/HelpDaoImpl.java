@@ -16,10 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.hfsecurity.bean.Helps;
 import com.hfsecurity.dao.HelpDao;
 
-/**
- * @author chenguoji
- * @email chenguo_ji@163.com
- */
+
 @Transactional(propagation = Propagation.REQUIRED, isolation = Isolation.DEFAULT)
 public class HelpDaoImpl implements HelpDao {
 

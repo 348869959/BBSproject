@@ -8,8 +8,7 @@ import java.util.List;
 import com.hfsecurity.bean.Categorys;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 类目DAO
  */
 public interface CategoryDao {
 	public boolean add(Categorys cate);

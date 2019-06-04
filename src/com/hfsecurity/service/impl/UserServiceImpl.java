@@ -23,8 +23,8 @@ import com.hfsecurity.dao.UserDao;
 import com.hfsecurity.service.UserService;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 用户服务接口方法定义
+ * 
  */
 
 public class UserServiceImpl implements UserService {

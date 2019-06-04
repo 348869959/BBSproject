@@ -4,8 +4,8 @@ import java.util.Date;
 
 
 /**
- * @author phn
- * 
+ * 公告栏beam
+ * 数据库获取
  */
 public class Announces {
 

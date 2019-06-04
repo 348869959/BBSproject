@@ -8,9 +8,10 @@ import java.util.List;
 import com.hfsecurity.bean.Helps;
 import com.hfsecurity.bean.Pages;
 
+
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 帮助栏服务接口定义
+ * 
  */
 public interface HelpService {
 	public List<Helps> getAll();

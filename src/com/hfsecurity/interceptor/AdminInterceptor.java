@@ -12,8 +12,7 @@ import com.opensymphony.xwork2.ActionInvocation;
 import com.opensymphony.xwork2.interceptor.MethodFilterInterceptor;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 管理员拦截器
  */
 public class AdminInterceptor extends MethodFilterInterceptor {
 

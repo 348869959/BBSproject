@@ -7,9 +7,10 @@ import com.hfsecurity.bean.Comments;
 import com.hfsecurity.bean.Topics;
 import com.hfsecurity.bean.Users;
 
+
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 评论服务接口定义
+ * 
  */
 public interface CommentService {
 

@@ -8,8 +8,8 @@ import java.util.List;
 import com.hfsecurity.bean.Announces;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * DAO data access object
+ * 公告栏
  */
 public interface AnnounceDao {
 	public List<Announces> getIndexAnno(int index);

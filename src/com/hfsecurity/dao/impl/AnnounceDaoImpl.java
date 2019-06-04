@@ -16,10 +16,6 @@ import org.springframework.transaction.annotation.Transactional;
 import com.hfsecurity.bean.Announces;
 import com.hfsecurity.dao.AnnounceDao;
 
-/**
- * @author chenguoji
- * @email chenguo_ji@163.com
- */
 @Transactional(propagation = Propagation.REQUIRED, isolation = Isolation.DEFAULT)
 public class AnnounceDaoImpl implements AnnounceDao {
 

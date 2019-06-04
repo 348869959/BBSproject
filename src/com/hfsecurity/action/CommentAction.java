@@ -16,8 +16,7 @@ import com.hfsecurity.bean.Users;
 import com.hfsecurity.service.CommentService;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * Forum Comment management module
  * 
  */
 public class CommentAction {

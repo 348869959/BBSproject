@@ -8,8 +8,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author phn
- * 
+ * 用户管理
  */
 public class Users {
 	private int id;

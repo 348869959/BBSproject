@@ -22,8 +22,7 @@ import com.hfsecurity.service.UserService;
 import com.hfsecurity.util.ResponseUtil;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 用户管理模块
  */
 public class UserAction {
 	private UserService userService;

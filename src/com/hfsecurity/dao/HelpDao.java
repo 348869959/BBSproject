@@ -8,8 +8,7 @@ import java.util.List;
 import com.hfsecurity.bean.Helps;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 帮助栏DAO
  */
 public interface HelpDao {
 	public List<Helps> getAll();

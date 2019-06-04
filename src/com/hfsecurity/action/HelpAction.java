@@ -11,8 +11,8 @@ import com.hfsecurity.bean.Pages;
 import com.hfsecurity.service.HelpService;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * Forum help module
+ * 
  */
 public class HelpAction {
 

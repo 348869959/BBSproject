@@ -16,8 +16,8 @@ import com.hfsecurity.dao.TopicDao;
 import com.hfsecurity.service.CommentService;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 评论服务接口方法定义
+ * 
  */
 
 public class CommentServiceImpl implements CommentService {

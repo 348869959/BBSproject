@@ -8,8 +8,7 @@ import java.util.List;
 import org.hibernate.Query;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 分页管理DAO
  */
 public interface PageDao {
 	public int getAllRowCount(String hql);

@@ -9,10 +9,7 @@ import org.hibernate.SessionFactory;
 import com.hfsecurity.bean.News;
 import com.hfsecurity.dao.NewDao;
 
-/**
- * @author chenguoji
- * @email chenguo_ji@163.com
- */
+
 public class NewDaoImpl implements NewDao {
 	private SessionFactory sessionFactory;
 

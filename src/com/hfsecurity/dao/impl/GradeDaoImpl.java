@@ -9,10 +9,7 @@ import org.hibernate.SessionFactory;
 import com.hfsecurity.bean.Grades;
 import com.hfsecurity.dao.GradeDao;
 
-/**
- * @author chenguoji
- * @email chenguo_ji@163.com
- */
+
 public class GradeDaoImpl implements GradeDao{
 	private SessionFactory sessionFactory;
 

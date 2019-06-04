@@ -11,8 +11,8 @@ import com.hfsecurity.bean.Topics;
 import com.hfsecurity.bean.Types;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 类目服务接口定义
+ * 
  */
 public interface CategoryService {
 	public boolean add(Categorys cate);

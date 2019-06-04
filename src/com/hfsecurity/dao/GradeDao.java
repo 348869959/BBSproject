@@ -6,8 +6,7 @@ package com.hfsecurity.dao;
 import com.hfsecurity.bean.Grades;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 评分DAO
  */
 public interface GradeDao {
 

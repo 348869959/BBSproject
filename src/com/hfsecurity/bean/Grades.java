@@ -4,8 +4,7 @@
 package com.hfsecurity.bean;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 帖子热度信息
  */
 public class Grades {
 	private int id;

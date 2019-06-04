@@ -9,8 +9,7 @@ import com.hfsecurity.bean.Topics;
 import com.hfsecurity.bean.Users;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 用户DAO
  */
 public interface UserDao {
 	/**

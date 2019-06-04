@@ -20,8 +20,7 @@ import com.hfsecurity.bean.Users;
 import com.hfsecurity.service.UserService;
 
 /**
- * @author phn
- * 
+ * Forum uploading file management
  */
 public class FileUpload {
 	private Users user;
@@ -68,15 +67,16 @@ public class FileUpload {
 
 	public String userPicUpload() throws Exception {
 		Random r = new Random();
-		// 以服务器的文件保存地址和原文件名建立上传文件输出流
+		//create file output stream based on 
+		//the saving path of the file in server and file name
 		FileOutputStream fos = new FileOutputStream(ServletActionContext
 				.getRequest().getRealPath(savePath)
 				+ "\\"
 				+ questionTime
 				+ getFileUploadFileName());
-		// 以上传文件建立一个文件上传流
+		// create a input stream based on the upload file
 		FileInputStream fis = new FileInputStream(getFileUpload());
-		// 将上传文件的内容写入服务器
+		// save the file into server
 		byte[] buffer = new byte[1024];
 		int len = 0;
 		while ((len = fis.read(buffer)) > 0) {

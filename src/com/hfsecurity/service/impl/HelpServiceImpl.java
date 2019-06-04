@@ -12,8 +12,8 @@ import com.hfsecurity.dao.PageDao;
 import com.hfsecurity.service.HelpService;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 帮助栏服务接口方法定义
+ * 
  */
 public class HelpServiceImpl implements HelpService {
 

@@ -16,10 +16,6 @@ import org.springframework.transaction.annotation.Transactional;
 import com.hfsecurity.bean.Types;
 import com.hfsecurity.dao.TypeDao;
 
-/**
- * @author chenguoji
- * @email chenguo_ji@163.com
- */
 @Transactional(propagation = Propagation.REQUIRED, isolation = Isolation.DEFAULT)
 public class TypeDaoImpl implements TypeDao {
 	private SessionFactory sessionFactory;

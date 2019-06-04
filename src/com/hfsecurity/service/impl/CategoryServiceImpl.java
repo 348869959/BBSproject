@@ -19,8 +19,8 @@ import com.hfsecurity.dao.TypeDao;
 import com.hfsecurity.service.CategoryService;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 类目服务接口方法定义
+ * 
  */
 public class CategoryServiceImpl implements CategoryService {
 

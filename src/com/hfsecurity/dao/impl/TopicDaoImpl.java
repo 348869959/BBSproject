@@ -18,10 +18,7 @@ import com.hfsecurity.bean.Topics;
 import com.hfsecurity.bean.Types;
 import com.hfsecurity.dao.TopicDao;
 
-/**
- * @author chenguoji
- * @email chenguo_ji@163.com
- */
+
 @Transactional(propagation = Propagation.REQUIRED, isolation = Isolation.DEFAULT)
 public class TopicDaoImpl implements TopicDao {
 

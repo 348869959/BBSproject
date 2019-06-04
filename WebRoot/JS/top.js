@@ -8,8 +8,7 @@
 	}
 };*/
 function logout() {
-	// alert("确定退出吗？");
-	var r = confirm("确定退出吗？");
+	var r = confirm("Sure to logout?");
 	if (r == true) {
 		return true;
 	} else {

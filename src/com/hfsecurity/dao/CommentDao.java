@@ -6,8 +6,7 @@ package com.hfsecurity.dao;
 import com.hfsecurity.bean.Comments;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 评论DAO
  */
 public interface CommentDao {
 	public boolean add(Comments comment);

@@ -12,10 +12,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.hfsecurity.bean.Comments;
 import com.hfsecurity.dao.CommentDao;
 
-/**
- * @author chenguoji
- * @email chenguo_ji@163.com
- */
+
 @Transactional(propagation = Propagation.REQUIRED, isolation = Isolation.DEFAULT)
 public class CommentDaoImpl implements CommentDao {
 

@@ -16,10 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.hfsecurity.bean.Topics;
 import com.hfsecurity.dao.PageDao;
 
-/**
- * @author chenguoji
- * @email chenguo_ji@163.com
- */
+
 @Transactional(propagation = Propagation.REQUIRED, isolation = Isolation.DEFAULT)
 public class PageDaoImpl implements PageDao {
 	private SessionFactory sessionFactory;

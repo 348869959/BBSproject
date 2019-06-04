@@ -6,8 +6,7 @@ package com.hfsecurity.bean;
 import java.util.Date;
 
 /**
- * @author phn
- * 
+ * 新闻数据库对接
  */
 public class News {
 	private int id;

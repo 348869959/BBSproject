@@ -11,8 +11,7 @@ import com.hfsecurity.bean.Types;
 import com.hfsecurity.service.TypeService;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * 分类管理模块
  */
 public class TypeAction {
 	private Types type;

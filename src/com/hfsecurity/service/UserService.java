@@ -10,11 +10,11 @@ import com.hfsecurity.bean.Pages;
 import com.hfsecurity.bean.Topics;
 import com.hfsecurity.bean.Users;
 
-/**
- * @author chenguoji
- * @email chenguo_ji@163.com
- */
 
+/**
+ * 用户服务接口定义
+ * 
+ */
 public interface UserService {
 	/**
 	 * 添加用户

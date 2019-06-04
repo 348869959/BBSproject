@@ -12,9 +12,7 @@ import com.hfsecurity.bean.Types;
 import com.hfsecurity.service.CategoryService;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
- * 
+ * Forum Category module
  * 
  */
 public class CategoryAction {
@@ -38,9 +36,8 @@ public class CategoryAction {
 	}
 	
 	/**
-	 * 新建帖子时获取所有大类型
-	 * 
-	 * @return
+	 * Get the title of the article when creating 
+	 * @return "Okay message"
 	 * @throws Exception
 	 */
 	public String new_getAll() throws Exception {
@@ -49,9 +46,9 @@ public class CategoryAction {
 	}
 
 	/**
-	 * 新建帖子时获取所有小类型
+	 * Get the sub-title of the article when creating
 	 * 
-	 * @return
+	 * @return "Okay message"
 	 * @throws Exception
 	 */
 	public String new_getType() throws Exception {
@@ -60,7 +57,7 @@ public class CategoryAction {
 	}
 
 	/**
-	 * 大模块获取所有类型
+	 * Get all the type of categories
 	 * @return
 	 * @throws Exception
 	 */
@@ -86,7 +83,7 @@ public class CategoryAction {
 	}
 	
 	/**
-	 * 后台管理获取所有大类型
+	 * Manage all the categories in back-end
 	 * @return
 	 * @throws Exception
 	 */
@@ -95,7 +92,7 @@ public class CategoryAction {
 		return "cate_manageAll_ok";
 	}
 	/**
-	 * 后台管理获取所有小类型，类似新建帖子
+	 * Manage all the types in categories in back-end
 	 * @return
 	 * @throws Exception
 	 */

@@ -16,10 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.hfsecurity.bean.Categorys;
 import com.hfsecurity.dao.CategoryDao;
 
-/**
- * @author chenguoji
- * @email chenguo_ji@163.com
- */
+
 @Transactional(propagation = Propagation.REQUIRED, isolation = Isolation.DEFAULT)
 public class CategoryDaoImpl implements CategoryDao {
 	private SessionFactory sessionFactory;

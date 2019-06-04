@@ -21,8 +21,8 @@ import com.hfsecurity.bean.Users;
 import com.hfsecurity.service.TopicService;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * Forum topic management module
+ * 
  */
 public class TopicAction {
 	private TopicService topicService;
@@ -51,7 +51,8 @@ public class TopicAction {
 	}
 
 	/**
-	 * 去往指定的帖子，默认只显示未被删除的评论
+	 * go to the specified post, 
+	 * only undeleted comments are displayed by default
 	 * 
 	 * @return
 	 * @throws Exception
@@ -86,12 +87,12 @@ public class TopicAction {
 		} else {
 			list = listTemp;
 		}
-		/* 先将list按楼层排序 */
+		/* First sort the list by floor */
 		if (list.size() > 1) {
 			this.QuickSort(list, 0, list.size() - 1);
 		}
 		this.nowPage = (this.nowPage == 0) ? 1 : this.nowPage;
-		/* 再将list按要求分页 */
+		/* Then page the list by request */
 		this.pageBean = this.QueryCommentsForPage(10, nowPage, list);
 		this.listComment = this.pageBean.getListComments();
 		this.topic = top;

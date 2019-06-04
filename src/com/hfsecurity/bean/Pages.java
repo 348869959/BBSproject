@@ -6,8 +6,7 @@ package com.hfsecurity.bean;
 import java.util.List;
 
 /**
- * @author phn
- * 
+ * 分页处理
  */
 public class Pages {
 

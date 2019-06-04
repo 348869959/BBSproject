@@ -14,8 +14,7 @@ import javax.servlet.http.HttpServletRequest;
 import org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * UI拦截器
  */
 public class UEditorFilter extends StrutsPrepareAndExecuteFilter {
 	public void doFilter(ServletRequest req, ServletResponse res,
