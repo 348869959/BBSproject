@@ -1,6 +1,4 @@
-/**
- * 
- */
+
 package com.hfsecurity.action;
 
 import java.util.Date;
@@ -11,10 +9,7 @@ import com.hfsecurity.bean.Pages;
 import com.hfsecurity.service.AnnounceService;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
- * 
- * 论坛公告
+ * Forum announcement module
  * 
  */
 public class AnnounceAction {
@@ -36,6 +31,15 @@ public class AnnounceAction {
 		return "anno_getIndex_ok";
 	}
 
+	/**************************************************
+	 * Setters and getters for Announcement management
+	 **************************************************/
+	
+	/**
+	 * Fetch all announcements  
+	 * @return
+	 * @throws Exception
+	 */
 	public String getAll() throws Exception {
 		this.listAnno = this.announceService.getAll();
 		this.announce = this.announceService.find(annoId);

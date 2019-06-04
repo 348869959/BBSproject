@@ -9,8 +9,9 @@ import com.hfsecurity.bean.Announces;
 import com.hfsecurity.bean.Pages;
 
 /**
- * @author chenguoji
- * @email chenguo_ji@163.com
+ * announcement service
+ * interfaces defined
+ * 
  */
 public interface AnnounceService {
 	public List<Announces> getIndexAnno(int index);
@@ -21,13 +22,14 @@ public interface AnnounceService {
 	public List<Announces> getAll();
 
 	/**
+	 * display the announcement by page
 	 * @param pageSize
 	 * @param nowPage
 	 * @return
 	 */
 	public Pages ManageAllForPages(int pageSize, int nowPage);
 
-	/**
+	/** 
 	 * @param id
 	 */
 	public Announces find(int id);

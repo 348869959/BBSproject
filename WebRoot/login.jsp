@@ -12,7 +12,7 @@
 <head>
 <base href="<%=basePath%>">
 
-<title>登录</title>
+<title>Login</title>
 <meta http-equiv="pragma" content="no-cache">
 <meta http-equiv="cache-control" content="no-cache">
 <meta http-equiv="expires" content="0">
@@ -36,11 +36,11 @@ if(self.location!=top.location) { top.location.href=self.location.href;}
 				<form action="user_Login.action" method="post"
 					onsubmit="return login();" id="loginForm">
 					<br /> <br />
-					<h2 align="left" style="margin-left: 50px;">用户登录</h2>
+					<h2 align="left" style="margin-left: 50px;">User Login</h2>
 					<br />
 					<table style="font-size: 18px;" align="left">
 						<tr>
-							<td style="text-align: right;width: 220px;">用&nbsp;户&nbsp;名：</td>
+							<td style="text-align: right;width: 220px;">Username：</td>
 							<td><input type="text" name="user.username" id="uName"
 								maxlength="8" onfocus="warnName()" onblur="return checkname()" />
 							</td>
@@ -52,7 +52,7 @@ if(self.location!=top.location) { top.location.href=self.location.href;}
 							<td style="height:20px;"></td>
 						</tr>
 						<tr>
-							<td style="text-align: right;width: 220px;">密&nbsp;&nbsp;&nbsp;&nbsp;码：</td>
+							<td style="text-align: right;width: 220px;">Password：</td>
 							<td><input type="password" name="user.password" id="uPass"
 								maxlength="16" onfocus="warnPass()" onblur="return checkpass();" />
 							</td>
@@ -64,8 +64,8 @@ if(self.location!=top.location) { top.location.href=self.location.href;}
 						</tr>
 						<tr>
 							<td></td>
-							<td><input type="submit" value="登录" class="butt" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
-								type="button" value="注册"
+							<td><input type="submit" value="Login" class="butt" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input
+								type="button" value="Register"
 								onclick="window.location.href='register.jsp'" class="butt">
 							</td>
 							<td></td>

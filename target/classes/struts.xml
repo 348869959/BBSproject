@@ -2,8 +2,8 @@
 <!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
 <struts>
 	<constant name="struts.custom.i18n.resources" value="globalMessages" /><!-- 
-		指定国际化资源文件 -->
-	<constant name="struts.i18n.encoding" value="UTF-8" /><!-- 指定编码方式 -->
+		setting the internationalizing document -->
+	<constant name="struts.i18n.encoding" value="UTF-8" /><!-- setting the encoding format -->
 	<package name="json" namespace="/" extends="json-default,struts-default">
 		<interceptors>
 			<interceptor name="userAuthority" class="com.hfsecurity.interceptor.UserInterceptor"></interceptor>
@@ -41,7 +41,7 @@
 		</action>
 	</package>
 	<package name="user" namespace="/" extends="struts-default">
-		<!-- 用户相关操作拦截器 -->
+		<!-- Interceptors for user operations -->
 		<interceptors>
 			<interceptor name="userAuthority" class="com.hfsecurity.interceptor.UserInterceptor"></interceptor>
 			<interceptor name="adminAuthority" class="com.hfsecurity.interceptor.AdminInterceptor"></interceptor>
@@ -53,9 +53,9 @@
 			<result name="error">/error.jsp</result>
 			<result name="a_error">/a/a_error.jsp</result>
 		</global-results>
-		<!-- 用户action -->
+		<!-- User action -->
 		<action name="user_*" class="UserAction" method="{1}">
-			<!-- 用户登录返回结果处理 -->
+			<!-- Processing the user login result -->
 			<result name="user_login_ok" type="redirect">/index.jsp</result>
 			<result name="login_error">/error.jsp</result>
 			<result name="user_register_ok" type="redirect">/index.jsp</result>

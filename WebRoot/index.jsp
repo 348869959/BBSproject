@@ -11,20 +11,20 @@
 <head>
 <base href="<%=basePath%>">
 
-<title>Java学习交流论坛</title>
+<title>HFSecurity Discussion Forum</title>
 <meta http-equiv="pragma" content="no-cache">
 <meta http-equiv="cache-control" content="no-cache">
 <meta http-equiv="expires" content="0">
-<meta http-equiv="keywords" content="chen-Java,Java学习交流论坛,Java论坛,论坛">
+<meta http-equiv="keywords" content="HFSecurity,Discussion Forum,Technical discussion,Forum">
 <meta http-equiv="description"
-	content="Java学习交流论坛为软件开发者（特别是Java软件开发者）提供了互相交流互相学习的网络平台。">
+	content="HFSecurity Discussion Forum provides discussion network platform for internal and clients.">
 <link rel="stylesheet" type="text/css" href="./CSS/index.css">
 <script type="text/javascript" src="./JS/jquery-1.11.0.js"></script>
 <script type="text/javascript">
 	function checkLogin() {
 		var msg = '<s:property value="#session.tu.username"/>';
 		if (!msg) {
-			var returnVal = window.confirm("未登录或登录已失效！请登录！", "提示");
+			var returnVal = window.confirm("Not login or login info expired! Pls re-login", "Message");
 			if (returnVal) {
 				location.href = 'login.jsp';
 			}
@@ -37,8 +37,8 @@
 body,html {
 	width: 1004px;
 	padding: 0px;
-	margin: 0px auto; /*设置居中  */
-	text-align: center; /*兼容性更好  */
+	margin: 0px auto; 
+	text-align: center; 
 	border: none;
 }
 .btn {
@@ -74,11 +74,11 @@ body,html {
 }
 
 .glyphicon-share-alt:before {
-	content: "回复";
+	content: "Reply";
 }
 
 .glyphicon-chevron-up:before {
-	content: "顶部";
+	content: "Top";
 }
 </style>
 </head>
@@ -92,17 +92,17 @@ body,html {
 		<div class="tBody">
 			<div class="topBody" align="left">
 				<div style="float: left;">
-					<a href="index.jsp" title="论坛首页"><img
+					<a href="index.jsp" title="Home Page"><img
 						src="image/homepage_24.png" /> </a>
 				</div>
-				<div style="float: left;line-height:24px;">&nbsp;&gt;&nbsp;论坛
+				<div style="float: left;line-height:24px;">&nbsp;&gt;&nbsp;Forum Content
 				</div>
 			</div>
 			<div class="leftBody">
 				<div class="hot">
 					<div class="ltitle">
 						<div style="float: left;width: 660px;">
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;热帖榜&nbsp;&nbsp;&nbsp;&nbsp;<font
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List of hot posts&nbsp;&nbsp;&nbsp;&nbsp;<font
 								style="font-style: italic;">TOP 10 </font>
 						</div>
 						<div align="center" style="float: left;width: 80px;color: #6699CC">
@@ -117,7 +117,7 @@ body,html {
 				<div class="fresh">
 					<div class="ltitle">
 						<div style="float: left;width: 660px;">
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新帖榜&nbsp;&nbsp;&nbsp;&nbsp;<font
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List of new posts&nbsp;&nbsp;&nbsp;&nbsp;<font
 								style="font-style: italic;">TOP 10 </font>
 						</div>
 						<div align="center" style="float: left;width: 80px;">
@@ -132,7 +132,7 @@ body,html {
 				<div class="classics">
 					<div class="ltitle">
 						<div style="float: left;width: 660px;">
-							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;精帖榜&nbsp;&nbsp;&nbsp;&nbsp;<font
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;List of best posts&nbsp;&nbsp;&nbsp;&nbsp;<font
 								style="font-style: italic;">TOP 10 </font>
 						</div>
 						<div align="center" style="float: left;width: 80px;color: #6699CC">
@@ -147,7 +147,7 @@ body,html {
 			</div>
 			<div class="rightBody">
 				<div class="announces">
-					<div class="rtitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;论坛公告
+					<div class="rtitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Announcement 
 					</div>
 					<div class="announcesContent">
 						<iframe width="200px" height="220px" frameborder=0 scrolling="no"
@@ -157,16 +157,12 @@ body,html {
 				<div class="newButton">
 					<form action="cate_new_getAll.action" method="get"
 						onsubmit="return checkLogin();">
-						<input type="submit" value="我要发帖">
+						<input type="submit" value="New Posting">
 					</form>
 				</div>
-				<!-- <div class="hero">
-					<div class="rtitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;论坛牛人
-					</div>
-					<div class="announcesContent"></div>
-				</div> -->
+		
 				<div class="helps">
-					<div class="rtitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;论坛帮助
+					<div class="rtitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Help
 					</div>
 					<div class="announcesContent">
 						<iframe width="200px" style="min-height: 220px;" frameborder=0
@@ -174,7 +170,7 @@ body,html {
 					</div>
 				</div>
 				<div class="friendLink">
-					<div class="rtitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;友情链接
+					<div class="rtitle">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Links
 					</div>
 					<div class="announcesContent">
 						<iframe width="200px" height="170px" frameborder=0 scrolling="no"
