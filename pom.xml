@@ -1,21 +1,27 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>forum</groupId>
-  <artifactId>forum</artifactId>
+  <groupId>BBSproject</groupId>
+  <artifactId>BBSproject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <name>forum</name>
+  <name>BBSproject</name>
   <description/>
   <properties>
     <webVersion>3.1</webVersion>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   <dependencies>
-  
 	<dependency>
 		<groupId>xml-apis</groupId>
 		<artifactId>xml-apis</artifactId>
 		<version>1.4.01</version>
+	</dependency>
+	    <dependency>
+    	<groupId>ognl</groupId>
+    	<artifactId>ognl</artifactId>
+    	<version>3.0.6</version>
 	</dependency>
     <dependency>
       <groupId>javax</groupId>
@@ -315,16 +321,11 @@
       <version>2.4.0.RELEASE</version>
     </dependency>
     <dependency>
-    	<groupId>ognl</groupId>
-    	<artifactId>ognl</artifactId>
-    	<version>3.0.6</version>
-	</dependency>
-    <dependency>
     	<groupId>com.mchange</groupId>
    		<artifactId>c3p0</artifactId>
     	<version>0.9.5.2</version>
 	</dependency>
-	
+
   </dependencies>
   <build>
     <sourceDirectory>src</sourceDirectory>
@@ -339,7 +340,7 @@
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>2.3.2</version>
+        <version>2.0.1</version>
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
